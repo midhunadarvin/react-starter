@@ -1,0 +1,41 @@
+$pattern-color: #f8d8b1;
+.App {
+  text-align: center;
+  background-color: #ffdbae;
+  background-image: radial-gradient($pattern-color 9px, transparent 10px),
+    repeating-radial-gradient(
+      $pattern-color 0,
+      $pattern-color 4px,
+      transparent 5px,
+      transparent 20px,
+      $pattern-color 21px,
+      $pattern-color 25px,
+      transparent 26px,
+      transparent 50px
+    );
+  background-size: 30px 30px, 90px 90px;
+  background-position: 0 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.grid-container {
+  display: grid;
+}
