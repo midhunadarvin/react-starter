@@ -36,6 +36,18 @@ $pattern-color: #f8d8b1;
   color: #61dafb;
 }
 
-.grid-container {
+.grid {
   display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
